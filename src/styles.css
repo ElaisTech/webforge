@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-black text-white pt-44;
+}
+
+.header-logo {
+  @apply w-36;
+}
+
+header {
+  @apply flex flex-row border-b-4 border-red-900 justify-between fixed z-50 items-center p-4 bg-black lg:p-6 top-0 w-full;
+}
+
+.menu-icon {
+  @apply w-20 md:invisible;
+}
+
+.top-nav {
+  @apply flex flex-col md:flex-row md:space-x-8 list-none text-center absolute right-4 top-40 text-3xl border-4 border-red-800 p-4 rounded-2xl md:border-none md:pt-16 bg-black md:bg-none;
+}
+
+footer {
+  @apply bg-black border-t-2 border-red-900 flex flex-col md:flex-row justify-between items-center text-center space-y-8 lg:space-y-0 p-16 md:p-4 bottom-0 h-52 text-2xl;
+}
+
+.social-footer-icon {
+  @apply w-20;
+}
+
+.social-footer {
+  @apply flex flex-row space-x-2 md:space-x-3 lg:space-x-4 justify-center;
+}
+
+.wrapper-center {
+  @apply flex flex-col justify-center text-center mt-8 mb-8 items-center;
+}
+
+.wrapper-center-orizontal {
+  @apply flex flex-row justify-center text-center space-x-4 md:space-x-16  mt-8 mb-8;
+}
+
+.btn {
+  @apply bg-white p-4 rounded-xl bg-opacity-80 text-2xl lg:text-3xl font-bold text-black border-2 border-red-300 hover:border-red-800 hover:-translate-y-1 duration-300;
+}
+
+.btn-big {
+  @apply bg-white p-4 rounded-xl bg-opacity-80 text-2xl lg:text-3xl font-bold text-black border-2 border-red-300 hover:border-red-800 hover:-translate-y-1 duration-300;
+}
+
+.gallery-element {
+  @apply shadow-xl rounded-lg max-w-xs lg:max-w-lg border-4 border-gray-600 hover:border-red-800 hover:-translate-y-1 duration-300;
+}
+
+.main-gallery-wrapper {
+  @apply flex flex-col lg:flex-row space-y-2 lg:space-y-0 items-center justify-center md:grid-cols-2 md:grid md:content-center max-w-full md:place-items-center;
+}
+
+.first-picture-container {
+  @apply max-w-full;
+}
+
+.body-menu-page {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-page-buttons {
+  @apply flex flex-col space-y-16 pt-28 pb-28;
+}
+
+.menupage-btns {
+  @apply bg-white p-4 rounded-xl bg-opacity-80 text-2xl lg:text-3xl font-bold text-yellow-500 border-2 border-red-300 hover:border-red-800 hover:-translate-y-1 duration-300;
+}
+
+.contacts-info {
+  @apply text-yellow-50 hover:text-yellow-400 hover:-translate-y-1 duration-300 text-3xl;
+}
+
+.menucontainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.menu-embedded {
+  width: 100%;
+  height: 100%;
+  @apply pt-10;
+}/*# sourceMappingURL=styles.css.map */
